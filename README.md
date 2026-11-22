@@ -1,8 +1,9 @@
 # Agencia de viajes (Frontend II)
 
-**Alumno:** Antonio Muñoz
-**Asignatura:** Desarrollo Frontend II (PFY2202) - Duoc UC
-**Evaluación:** Actividad sumativa, Experiencia 2, Semana 5 - "Integrando nuestro frontend con backend"
+Antonio Muñoz 
+----
+**Asignatura:** Desarrollo Frontend II
+**Evaluación:** Experiencia 2, Semana 5
 
 Aplicación de una agencia de viajes hecha con **React 18, Vite y React Router v6**. El usuario explora destinos, elige uno y ve los vuelos y hoteles disponibles, con precios, fechas y disponibilidad. Calcula el total estimado del viaje.
 
@@ -55,11 +56,7 @@ npm run deploy     # publica dist/ en la rama gh-pages
 
 ## Pruebas en navegadores
 
-Se probó el flujo completo (inicio → destinos → búsqueda y filtro → detalle → selección de vuelo y hotel → total, recarga en el detalle, destino inexistente y ruta 404) y no hubo errores en consola. Completar las filas pendientes al probar el sitio publicado:
-
+Se probó el flujo completo (inicio → destinos → búsqueda y filtro → detalle → selección de vuelo y hotel → total, recarga en el detalle, destino inexistente y ruta 404) y no hubo errores en consola.
 | Navegador | Versión | Listado | Detalle (REST + GraphQL) | Responsive | Observaciones |
 | --- | --- | --- | --- | --- | --- |
 | Chromium (Chrome) | Playwright, 1280 px y 375 px | OK | OK | OK, sin scroll horizontal | Sin errores ni advertencias |
-| Firefox | | | | | |
-| Edge | | | | | |
-| Safari / móvil | | | | | |
